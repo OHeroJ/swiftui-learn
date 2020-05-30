@@ -10,19 +10,30 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .leading) {
-            Text("Hello, swiftui!")
-                .font(.title)
-                .foregroundColor(.red)
-                .padding(.leading, 30.0)
-            HStack {
-                Text(/*@START_MENU_TOKEN@*/"laijihua"/*@END_MENU_TOKEN@*/)
-                    .font(.largeTitle)
-                    .foregroundColor(Color.gray)
-                Spacer()
-                Text("nice stuff!")
+        VStack {
+            MapView()
+                .edgesIgnoringSafeArea(.top)
+                .frame(height: 300)
+            
+            CircleImage()
+                .offset(y: -130)
+                .padding(.bottom, -130)
+        
+            VStack(alignment: .center) {
+                Text("Hello, swiftui!")
+                    .font(.title)
+                    .foregroundColor(.red)
+            
+                HStack {
+                    Text(/*@START_MENU_TOKEN@*/"laijihua"/*@END_MENU_TOKEN@*/)
+                        .font(.largeTitle)
+                        .foregroundColor(Color.gray)
+                    Spacer()
+                    Text("nice stuff!")
+                }.padding()
+                
             }
-            .padding([.top, .leading, .trailing], 30.0)
+            Spacer()
         }
     }
 }
