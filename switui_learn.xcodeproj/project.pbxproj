@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2490F89224C83E200013EB7B /* switui_learnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2490F89124C83E200013EB7B /* switui_learnApp.swift */; };
+		2490F89424C83E200013EB7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2490F89324C83E200013EB7B /* ContentView.swift */; };
+		2490F89624C83E240013EB7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2490F89524C83E240013EB7B /* Assets.xcassets */; };
+		2490F89924C83E240013EB7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2490F89824C83E240013EB7B /* Preview Assets.xcassets */; };
+		2490F8A424C83E240013EB7B /* switui_learnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2490F8A324C83E240013EB7B /* switui_learnTests.swift */; };
+		2490F8AF24C83E240013EB7B /* switui_learnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2490F8AE24C83E240013EB7B /* switui_learnUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2490F8A024C83E240013EB7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2490F88624C83E200013EB7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2490F88D24C83E200013EB7B;
+			remoteInfo = switui_learn;
+		};
+		2490F8AB24C83E240013EB7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2490F88624C83E200013EB7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2490F88D24C83E200013EB7B;
+			remoteInfo = switui_learn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2490F88E24C83E200013EB7B /* switui_learn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = switui_learn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2490F89124C83E200013EB7B /* switui_learnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = switui_learnApp.swift; sourceTree = "<group>"; };
+		2490F89324C83E200013EB7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2490F89524C83E240013EB7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2490F89824C83E240013EB7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2490F89A24C83E240013EB7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2490F89F24C83E240013EB7B /* switui_learnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = switui_learnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2490F8A324C83E240013EB7B /* switui_learnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = switui_learnTests.swift; sourceTree = "<group>"; };
+		2490F8A524C83E240013EB7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2490F8AA24C83E240013EB7B /* switui_learnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = switui_learnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2490F8AE24C83E240013EB7B /* switui_learnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = switui_learnUITests.swift; sourceTree = "<group>"; };
+		2490F8B024C83E240013EB7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2490F88B24C83E200013EB7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2490F89C24C83E240013EB7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2490F8A724C83E240013EB7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2490F88524C83E200013EB7B = {
+			isa = PBXGroup;
+			children = (
+				2490F89024C83E200013EB7B /* switui_learn */,
+				2490F8A224C83E240013EB7B /* switui_learnTests */,
+				2490F8AD24C83E240013EB7B /* switui_learnUITests */,
+				2490F88F24C83E200013EB7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2490F88F24C83E200013EB7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2490F88E24C83E200013EB7B /* switui_learn.app */,
+				2490F89F24C83E240013EB7B /* switui_learnTests.xctest */,
+				2490F8AA24C83E240013EB7B /* switui_learnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2490F89024C83E200013EB7B /* switui_learn */ = {
+			isa = PBXGroup;
+			children = (
+				2490F89124C83E200013EB7B /* switui_learnApp.swift */,
+				2490F89324C83E200013EB7B /* ContentView.swift */,
+				2490F89524C83E240013EB7B /* Assets.xcassets */,
+				2490F89A24C83E240013EB7B /* Info.plist */,
+				2490F89724C83E240013EB7B /* Preview Content */,
+			);
+			path = switui_learn;
+			sourceTree = "<group>";
+		};
+		2490F89724C83E240013EB7B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2490F89824C83E240013EB7B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2490F8A224C83E240013EB7B /* switui_learnTests */ = {
+			isa = PBXGroup;
+			children = (
+				2490F8A324C83E240013EB7B /* switui_learnTests.swift */,
+				2490F8A524C83E240013EB7B /* Info.plist */,
+			);
+			path = switui_learnTests;
+			sourceTree = "<group>";
+		};
+		2490F8AD24C83E240013EB7B /* switui_learnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2490F8AE24C83E240013EB7B /* switui_learnUITests.swift */,
+				2490F8B024C83E240013EB7B /* Info.plist */,
+			);
+			path = switui_learnUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2490F88D24C83E200013EB7B /* switui_learn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2490F8B324C83E240013EB7B /* Build configuration list for PBXNativeTarget "switui_learn" */;
+			buildPhases = (
+				2490F88A24C83E200013EB7B /* Sources */,
+				2490F88B24C83E200013EB7B /* Frameworks */,
+				2490F88C24C83E200013EB7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = switui_learn;
+			productName = switui_learn;
+			productReference = 2490F88E24C83E200013EB7B /* switui_learn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2490F89E24C83E240013EB7B /* switui_learnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2490F8B624C83E240013EB7B /* Build configuration list for PBXNativeTarget "switui_learnTests" */;
+			buildPhases = (
+				2490F89B24C83E240013EB7B /* Sources */,
+				2490F89C24C83E240013EB7B /* Frameworks */,
+				2490F89D24C83E240013EB7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2490F8A124C83E240013EB7B /* PBXTargetDependency */,
+			);
+			name = switui_learnTests;
+			productName = switui_learnTests;
+			productReference = 2490F89F24C83E240013EB7B /* switui_learnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2490F8A924C83E240013EB7B /* switui_learnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2490F8B924C83E240013EB7B /* Build configuration list for PBXNativeTarget "switui_learnUITests" */;
+			buildPhases = (
+				2490F8A624C83E240013EB7B /* Sources */,
+				2490F8A724C83E240013EB7B /* Frameworks */,
+				2490F8A824C83E240013EB7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2490F8AC24C83E240013EB7B /* PBXTargetDependency */,
+			);
+			name = switui_learnUITests;
+			productName = switui_learnUITests;
+			productReference = 2490F8AA24C83E240013EB7B /* switui_learnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2490F88624C83E200013EB7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					2490F88D24C83E200013EB7B = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					2490F89E24C83E240013EB7B = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 2490F88D24C83E200013EB7B;
+					};
+					2490F8A924C83E240013EB7B = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 2490F88D24C83E200013EB7B;
+					};
+				};
+			};
+			buildConfigurationList = 2490F88924C83E200013EB7B /* Build configuration list for PBXProject "switui_learn" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2490F88524C83E200013EB7B;
+			productRefGroup = 2490F88F24C83E200013EB7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2490F88D24C83E200013EB7B /* switui_learn */,
+				2490F89E24C83E240013EB7B /* switui_learnTests */,
+				2490F8A924C83E240013EB7B /* switui_learnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2490F88C24C83E200013EB7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2490F89924C83E240013EB7B /* Preview Assets.xcassets in Resources */,
+				2490F89624C83E240013EB7B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2490F89D24C83E240013EB7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2490F8A824C83E240013EB7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2490F88A24C83E200013EB7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2490F89424C83E200013EB7B /* ContentView.swift in Sources */,
+				2490F89224C83E200013EB7B /* switui_learnApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2490F89B24C83E240013EB7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2490F8A424C83E240013EB7B /* switui_learnTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2490F8A624C83E240013EB7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2490F8AF24C83E240013EB7B /* switui_learnUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2490F8A124C83E240013EB7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2490F88D24C83E200013EB7B /* switui_learn */;
+			targetProxy = 2490F8A024C83E240013EB7B /* PBXContainerItemProxy */;
+		};
+		2490F8AC24C83E240013EB7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2490F88D24C83E200013EB7B /* switui_learn */;
+			targetProxy = 2490F8AB24C83E240013EB7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2490F8B124C83E240013EB7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2490F8B224C83E240013EB7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2490F8B424C83E240013EB7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"switui_learn/Preview Content\"";
+				DEVELOPMENT_TEAM = BB535CKPZQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = switui_learn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtd.AustraliaTodayLite.switui-learn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2490F8B524C83E240013EB7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"switui_learn/Preview Content\"";
+				DEVELOPMENT_TEAM = BB535CKPZQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = switui_learn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtd.AustraliaTodayLite.switui-learn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2490F8B724C83E240013EB7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BB535CKPZQ;
+				INFOPLIST_FILE = switui_learnTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtd.AustraliaTodayLite.switui-learnTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/switui_learn.app/switui_learn";
+			};
+			name = Debug;
+		};
+		2490F8B824C83E240013EB7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BB535CKPZQ;
+				INFOPLIST_FILE = switui_learnTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtd.AustraliaTodayLite.switui-learnTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/switui_learn.app/switui_learn";
+			};
+			name = Release;
+		};
+		2490F8BA24C83E240013EB7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BB535CKPZQ;
+				INFOPLIST_FILE = switui_learnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtd.AustraliaTodayLite.switui-learnUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = switui_learn;
+			};
+			name = Debug;
+		};
+		2490F8BB24C83E240013EB7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BB535CKPZQ;
+				INFOPLIST_FILE = switui_learnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtd.AustraliaTodayLite.switui-learnUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = switui_learn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2490F88924C83E200013EB7B /* Build configuration list for PBXProject "switui_learn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2490F8B124C83E240013EB7B /* Debug */,
+				2490F8B224C83E240013EB7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2490F8B324C83E240013EB7B /* Build configuration list for PBXNativeTarget "switui_learn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2490F8B424C83E240013EB7B /* Debug */,
+				2490F8B524C83E240013EB7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2490F8B624C83E240013EB7B /* Build configuration list for PBXNativeTarget "switui_learnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2490F8B724C83E240013EB7B /* Debug */,
+				2490F8B824C83E240013EB7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2490F8B924C83E240013EB7B /* Build configuration list for PBXNativeTarget "switui_learnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2490F8BA24C83E240013EB7B /* Debug */,
+				2490F8BB24C83E240013EB7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2490F88624C83E200013EB7B /* Project object */;
+}
