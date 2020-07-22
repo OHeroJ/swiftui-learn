@@ -9,7 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!").padding()
+        HStack(alignment: .center) {
+            Text("Hello, world!")
+                .font(.title)
+                .foregroundColor(.red)
+            Spacer()
+            Text("Oheroj/swiftui-learn")
+        }
+        .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+        
     }
 }
 
