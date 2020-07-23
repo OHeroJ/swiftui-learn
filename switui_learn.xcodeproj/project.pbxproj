@@ -13,6 +13,8 @@
 		2490F89924C83E240013EB7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2490F89824C83E240013EB7B /* Preview Assets.xcassets */; };
 		2490F8A424C83E240013EB7B /* switui_learnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2490F8A324C83E240013EB7B /* switui_learnTests.swift */; };
 		2490F8AF24C83E240013EB7B /* switui_learnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2490F8AE24C83E240013EB7B /* switui_learnUITests.swift */; };
+		2490F8BD24C9105C0013EB7B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2490F8BC24C9105C0013EB7B /* CircleImage.swift */; };
+		2490F8BF24C911EB0013EB7B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2490F8BE24C911EB0013EB7B /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		2490F8AA24C83E240013EB7B /* switui_learnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = switui_learnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2490F8AE24C83E240013EB7B /* switui_learnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = switui_learnUITests.swift; sourceTree = "<group>"; };
 		2490F8B024C83E240013EB7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2490F8BC24C9105C0013EB7B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		2490F8BE24C911EB0013EB7B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				2490F89524C83E240013EB7B /* Assets.xcassets */,
 				2490F89A24C83E240013EB7B /* Info.plist */,
 				2490F89724C83E240013EB7B /* Preview Content */,
+				2490F8BC24C9105C0013EB7B /* CircleImage.swift */,
+				2490F8BE24C911EB0013EB7B /* MapView.swift */,
 			);
 			path = switui_learn;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2490F89424C83E200013EB7B /* ContentView.swift in Sources */,
+				2490F8BF24C911EB0013EB7B /* MapView.swift in Sources */,
 				2490F89224C83E200013EB7B /* switui_learnApp.swift in Sources */,
+				2490F8BD24C9105C0013EB7B /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
