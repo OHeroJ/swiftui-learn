@@ -9,14 +9,16 @@
 import SwiftUI
 
 struct ContentView: View {
+
+
     var body: some View {
         VStack {
-            
+
             VStack(alignment: .center) {
                 Text("Hello, swiftui!")
                     .font(.title)
                     .foregroundColor(.red)
-            
+
                 HStack {
                     Text(/*@START_MENU_TOKEN@*/"laijihua"/*@END_MENU_TOKEN@*/)
                         .font(.largeTitle)
@@ -24,7 +26,7 @@ struct ContentView: View {
                     Spacer()
                     Text("nice stuff!")
                 }.padding()
-                
+
             }
             Spacer()
         }
