@@ -7,22 +7,30 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
     var body: some View {
-        HStack(alignment: .center) {
-            Text("Hello, world!")
-                .font(.title)
-                .foregroundColor(.red)
-            Spacer()
-            Text("Oheroj/swiftui-learn")
-        }
-        .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-        
+        VStack(alignment: .center) {
+            Text("GitHub",
+                 style: TextStyle(font: .title, padding: .only(bottom:20), color: .white)
+            )
+            Button("授权") {
+                
+            }
+        }.frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/,
+                maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/,
+                minHeight: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/,
+                maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/
+                )
+        .background(Color.black)
+        .ignoresSafeArea()
     }
 }
-
+    
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
+
