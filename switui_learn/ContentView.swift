@@ -10,21 +10,52 @@ import SwiftUI
 
 
 struct ContentView: View {
+    @State private var isAuth = false
+    
     var body: some View {
-        VStack(alignment: .center) {
-            Text("GitHub",
-                 style: TextStyle(font: .title, padding: .only(bottom:20), color: .white)
-            )
-            Button("授权") {
+        if isAuth {
+            TabView {
+                Home()
+                    .tabItem {
+                        Image("tab_home")
+                        Text("home")
+                    }
                 
+                Learn()
+                    .tabItem {
+                        Image("tab_learn")
+                        Text("learn")
+                    }
+                
+                Mine()
+                    .tabItem {
+                        Image("tab_mine")
+                        Text("mine")
+                    }
             }
-        }.frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/,
-                maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/,
-                minHeight: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/,
-                maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/
-                )
-        .background(Color.black)
-        .ignoresSafeArea()
+        }
+        else {
+            VStack(alignment: .center) {
+                Text("GitHub")
+                    .font(.title)
+                    .foregroundColor(.white)
+                    .fontWeight(.bold)
+                    .padding()
+
+                Button("授权") {
+                    isAuth.toggle()
+                }
+
+           }
+           .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/,
+                   maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/,
+                   minHeight: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/,
+                   maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/
+            )
+            .background(Color.black)
+            .navigationBarHidden(true)
+            .ignoresSafeArea()
+        }
     }
 }
     
