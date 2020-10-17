@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ResponseData: Codable {
     struct Data: Codable {
@@ -24,34 +25,19 @@ struct Topic: Codable, Identifiable {
     var content: String?
 }
 
-struct LearnApi: View {
-    @State private var topics: [Topic] = []
+class TopicViewModel: ObservableObject {
+    @Published var topics: [Topic] = []
+    var cancellationToken: AnyCancellable? // 2
     
-    var body: some View {
-        VStack{
-            List {
-                ForEach(self.topics) { joke in
-                    return Text(joke.title)
-                }
-            }
-            
-            Button(action: {
-                self.getTopics()
-            }, label: {
-                Text("刷新")
-            })
-        }
-        .navigationTitle(Text("LearnApi"))
-        .onAppear(perform: {
-            self.getTopics()
-        })
+    init() {
+        getTopics()
     }
     
     func getTopics() {
         let url = URL(string: "https://sb.loveli.site/api/subject/null/topics?per=10&page=1")!
         var urlReq = URLRequest(url: url)
         urlReq.addValue("application/json", forHTTPHeaderField: "Accept")
-        let request = URLSession.shared.dataTaskPublisher(for: urlReq)
+        self.cancellationToken = URLSession.shared.dataTaskPublisher(for: urlReq)
             .map({ res in
                 
                 return res.data
@@ -64,6 +50,32 @@ struct LearnApi: View {
                 self.topics = res.data.items
             }
     }
+}
+
+struct LearnApi: View {
+    @ObservedObject var viewModel = TopicViewModel()
+
+    var body: some View {
+        VStack{
+            List {
+                ForEach(viewModel.topics) { topic in
+                    return Text(topic.title)
+                }
+            }
+            
+            Button(action: {
+                viewModel.getTopics()
+            }, label: {
+                Text("刷新")
+            })
+        }
+        .navigationTitle(Text("LearnApi"))
+        .onAppear(perform: {
+            viewModel.getTopics()
+        })
+    }
+    
+    
 }
 
 struct LearnApi_Previews: PreviewProvider {
