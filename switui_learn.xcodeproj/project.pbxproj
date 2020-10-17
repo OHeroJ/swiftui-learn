@@ -11,11 +11,17 @@
 		2450115D25396C2F00792DF1 /* Learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450115C25396C2F00792DF1 /* Learn.swift */; };
 		2450116225396C3A00792DF1 /* Mine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450116125396C3A00792DF1 /* Mine.swift */; };
 		2490F89224C83E200013EB7B /* switui_learnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2490F89124C83E200013EB7B /* switui_learnApp.swift */; };
-		2490F89424C83E200013EB7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2490F89324C83E200013EB7B /* ContentView.swift */; };
+		2490F89424C83E200013EB7B /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2490F89324C83E200013EB7B /* MainApp.swift */; };
 		2490F89624C83E240013EB7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2490F89524C83E240013EB7B /* Assets.xcassets */; };
 		2490F89924C83E240013EB7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2490F89824C83E240013EB7B /* Preview Assets.xcassets */; };
 		2490F8A424C83E240013EB7B /* switui_learnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2490F8A324C83E240013EB7B /* switui_learnTests.swift */; };
 		2490F8AF24C83E240013EB7B /* switui_learnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2490F8AE24C83E240013EB7B /* switui_learnUITests.swift */; };
+		24EEEE87253A839100D95E4B /* LearnList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EEEE86253A839100D95E4B /* LearnList.swift */; };
+		24EEEE8C253A84BA00D95E4B /* LearnState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EEEE8B253A84BA00D95E4B /* LearnState.swift */; };
+		24EEEE91253A85D900D95E4B /* LearnObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EEEE90253A85D900D95E4B /* LearnObservableObject.swift */; };
+		24EEEE96253A878C00D95E4B /* LearnEnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EEEE95253A878C00D95E4B /* LearnEnvironmentObject.swift */; };
+		24EEEE9D253A882600D95E4B /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EEEE9C253A882600D95E4B /* Tab.swift */; };
+		24EEEEA5253A884D00D95E4B /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EEEEA4253A884D00D95E4B /* Auth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +47,7 @@
 		2450116125396C3A00792DF1 /* Mine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mine.swift; sourceTree = "<group>"; };
 		2490F88E24C83E200013EB7B /* switui_learn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = switui_learn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2490F89124C83E200013EB7B /* switui_learnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = switui_learnApp.swift; sourceTree = "<group>"; };
-		2490F89324C83E200013EB7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2490F89324C83E200013EB7B /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
 		2490F89524C83E240013EB7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2490F89824C83E240013EB7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2490F89A24C83E240013EB7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		2490F8AA24C83E240013EB7B /* switui_learnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = switui_learnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2490F8AE24C83E240013EB7B /* switui_learnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = switui_learnUITests.swift; sourceTree = "<group>"; };
 		2490F8B024C83E240013EB7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24EEEE86253A839100D95E4B /* LearnList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnList.swift; sourceTree = "<group>"; };
+		24EEEE8B253A84BA00D95E4B /* LearnState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnState.swift; sourceTree = "<group>"; };
+		24EEEE90253A85D900D95E4B /* LearnObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnObservableObject.swift; sourceTree = "<group>"; };
+		24EEEE95253A878C00D95E4B /* LearnEnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnEnvironmentObject.swift; sourceTree = "<group>"; };
+		24EEEE9C253A882600D95E4B /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		24EEEEA4253A884D00D95E4B /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +113,12 @@
 		2490F89024C83E200013EB7B /* switui_learn */ = {
 			isa = PBXGroup;
 			children = (
+				24EEEE9B253A87EF00D95E4B /* Main */,
+				24EEEE9A253A87D300D95E4B /* Learn */,
 				2490F89124C83E200013EB7B /* switui_learnApp.swift */,
-				2490F89324C83E200013EB7B /* ContentView.swift */,
 				2490F89524C83E240013EB7B /* Assets.xcassets */,
 				2490F89A24C83E240013EB7B /* Info.plist */,
 				2490F89724C83E240013EB7B /* Preview Content */,
-				245011572539352600792DF1 /* Home.swift */,
-				2450115C25396C2F00792DF1 /* Learn.swift */,
-				2450116125396C3A00792DF1 /* Mine.swift */,
 			);
 			path = switui_learn;
 			sourceTree = "<group>";
@@ -137,6 +147,30 @@
 				2490F8B024C83E240013EB7B /* Info.plist */,
 			);
 			path = switui_learnUITests;
+			sourceTree = "<group>";
+		};
+		24EEEE9A253A87D300D95E4B /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				24EEEE8B253A84BA00D95E4B /* LearnState.swift */,
+				24EEEE95253A878C00D95E4B /* LearnEnvironmentObject.swift */,
+				24EEEE86253A839100D95E4B /* LearnList.swift */,
+				24EEEE90253A85D900D95E4B /* LearnObservableObject.swift */,
+			);
+			path = Learn;
+			sourceTree = "<group>";
+		};
+		24EEEE9B253A87EF00D95E4B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2490F89324C83E200013EB7B /* MainApp.swift */,
+				245011572539352600792DF1 /* Home.swift */,
+				2450115C25396C2F00792DF1 /* Learn.swift */,
+				2450116125396C3A00792DF1 /* Mine.swift */,
+				24EEEE9C253A882600D95E4B /* Tab.swift */,
+				24EEEEA4253A884D00D95E4B /* Auth.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,9 +302,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24EEEE8C253A84BA00D95E4B /* LearnState.swift in Sources */,
+				24EEEE87253A839100D95E4B /* LearnList.swift in Sources */,
 				2450115D25396C2F00792DF1 /* Learn.swift in Sources */,
-				2490F89424C83E200013EB7B /* ContentView.swift in Sources */,
+				2490F89424C83E200013EB7B /* MainApp.swift in Sources */,
+				24EEEE96253A878C00D95E4B /* LearnEnvironmentObject.swift in Sources */,
+				24EEEE91253A85D900D95E4B /* LearnObservableObject.swift in Sources */,
+				24EEEEA5253A884D00D95E4B /* Auth.swift in Sources */,
 				245011582539352600792DF1 /* Home.swift in Sources */,
+				24EEEE9D253A882600D95E4B /* Tab.swift in Sources */,
 				2450116225396C3A00792DF1 /* Mine.swift in Sources */,
 				2490F89224C83E200013EB7B /* switui_learnApp.swift in Sources */,
 			);

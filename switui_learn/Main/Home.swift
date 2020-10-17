@@ -1,5 +1,5 @@
 //
-//  Mine.swift
+//  Home.swift
 //  switui_learn
 //
 //  Created by laijihua on 2020/10/16.
@@ -7,16 +7,17 @@
 
 import SwiftUI
 
-struct Mine: View {
+struct Home: View {
     var body: some View {
         NavigationView(content: {
-            Text("Hello, World!").navigationTitle(Text("Mine"))
+            Text("Home")
+            .navigationTitle(Text("Home").foregroundColor(.red))
         })
     }
 }
 
-struct Mine_Previews: PreviewProvider {
+struct Home_Previews: PreviewProvider {
     static var previews: some View {
-        Mine()
+        Home()
     }
 }
