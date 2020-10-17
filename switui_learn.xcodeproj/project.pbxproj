@@ -22,6 +22,8 @@
 		24EEEE96253A878C00D95E4B /* LearnEnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EEEE95253A878C00D95E4B /* LearnEnvironmentObject.swift */; };
 		24EEEE9D253A882600D95E4B /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EEEE9C253A882600D95E4B /* Tab.swift */; };
 		24EEEEA5253A884D00D95E4B /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EEEEA4253A884D00D95E4B /* Auth.swift */; };
+		24EEEEB0253AD84A00D95E4B /* LearnAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EEEEAF253AD84A00D95E4B /* LearnAnimate.swift */; };
+		24EEEEB5253ADD5400D95E4B /* LearnApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EEEEB4253ADD5400D95E4B /* LearnApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		24EEEE95253A878C00D95E4B /* LearnEnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnEnvironmentObject.swift; sourceTree = "<group>"; };
 		24EEEE9C253A882600D95E4B /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		24EEEEA4253A884D00D95E4B /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		24EEEEAF253AD84A00D95E4B /* LearnAnimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnAnimate.swift; sourceTree = "<group>"; };
+		24EEEEB4253ADD5400D95E4B /* LearnApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +158,8 @@
 			children = (
 				24EEEE8B253A84BA00D95E4B /* LearnState.swift */,
 				24EEEE95253A878C00D95E4B /* LearnEnvironmentObject.swift */,
+				24EEEEAF253AD84A00D95E4B /* LearnAnimate.swift */,
+				24EEEEB4253ADD5400D95E4B /* LearnApi.swift */,
 				24EEEE86253A839100D95E4B /* LearnList.swift */,
 				24EEEE90253A85D900D95E4B /* LearnObservableObject.swift */,
 			);
@@ -304,11 +310,13 @@
 			files = (
 				24EEEE8C253A84BA00D95E4B /* LearnState.swift in Sources */,
 				24EEEE87253A839100D95E4B /* LearnList.swift in Sources */,
+				24EEEEB0253AD84A00D95E4B /* LearnAnimate.swift in Sources */,
 				2450115D25396C2F00792DF1 /* Learn.swift in Sources */,
 				2490F89424C83E200013EB7B /* MainApp.swift in Sources */,
 				24EEEE96253A878C00D95E4B /* LearnEnvironmentObject.swift in Sources */,
 				24EEEE91253A85D900D95E4B /* LearnObservableObject.swift in Sources */,
 				24EEEEA5253A884D00D95E4B /* Auth.swift in Sources */,
+				24EEEEB5253ADD5400D95E4B /* LearnApi.swift in Sources */,
 				245011582539352600792DF1 /* Home.swift in Sources */,
 				24EEEE9D253A882600D95E4B /* Tab.swift in Sources */,
 				2450116225396C3A00792DF1 /* Mine.swift in Sources */,

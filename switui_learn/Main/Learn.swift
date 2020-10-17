@@ -19,6 +19,10 @@ struct Learn: View {
                     .padding(10)
                 NavigationLink("EnvironmentObject 学习", destination: LearnEnvironmentObject())
                     .padding(10)
+                NavigationLink("Animate 学习", destination: LearnAnimate())
+                    .padding(10)
+                NavigationLink("Network 学习", destination: LearnApi())
+                    .padding(10)
             }.navigationTitle("Learn")
         })
     }
