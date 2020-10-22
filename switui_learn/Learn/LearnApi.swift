@@ -15,8 +15,6 @@ struct ResponseData: Codable {
     var code: Int
     var message: String
     var data: Data
-    
-    
 }
 
 struct Topic: Codable, Identifiable {
@@ -26,7 +24,9 @@ struct Topic: Codable, Identifiable {
 }
 
 class TopicViewModel: ObservableObject {
+    
     @Published var topics: [Topic] = []
+    
     var cancellationToken: AnyCancellable? // 2
     
     init() {
@@ -38,10 +38,7 @@ class TopicViewModel: ObservableObject {
         var urlReq = URLRequest(url: url)
         urlReq.addValue("application/json", forHTTPHeaderField: "Accept")
         self.cancellationToken = URLSession.shared.dataTaskPublisher(for: urlReq)
-            .map({ res in
-                
-                return res.data
-            })
+            .map { $0.data }
             .decode(type: ResponseData.self, decoder: JSONDecoder())
             .replaceError(with: ResponseData(code: 404, message: "not Found", data: ResponseData.Data(items: [])))
             .eraseToAnyPublisher()
@@ -62,12 +59,6 @@ struct LearnApi: View {
                     return Text(topic.title)
                 }
             }
-            
-            Button(action: {
-                viewModel.getTopics()
-            }, label: {
-                Text("刷新")
-            })
         }
         .navigationTitle(Text("LearnApi"))
         .onAppear(perform: {

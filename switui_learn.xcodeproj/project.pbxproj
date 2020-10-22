@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2439B2C5254120D100B14C78 /* LearnGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2439B2C4254120D100B14C78 /* LearnGeometryReader.swift */; };
 		245011582539352600792DF1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245011572539352600792DF1 /* Home.swift */; };
 		2450115D25396C2F00792DF1 /* Learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450115C25396C2F00792DF1 /* Learn.swift */; };
 		2450116225396C3A00792DF1 /* Mine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450116125396C3A00792DF1 /* Mine.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2439B2C4254120D100B14C78 /* LearnGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnGeometryReader.swift; sourceTree = "<group>"; };
 		245011572539352600792DF1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		2450115C25396C2F00792DF1 /* Learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn.swift; sourceTree = "<group>"; };
 		2450116125396C3A00792DF1 /* Mine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mine.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				24EEEEB4253ADD5400D95E4B /* LearnApi.swift */,
 				24EEEE86253A839100D95E4B /* LearnList.swift */,
 				24EEEE90253A85D900D95E4B /* LearnObservableObject.swift */,
+				2439B2C4254120D100B14C78 /* LearnGeometryReader.swift */,
 			);
 			path = Learn;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24EEEE8C253A84BA00D95E4B /* LearnState.swift in Sources */,
+				2439B2C5254120D100B14C78 /* LearnGeometryReader.swift in Sources */,
 				24EEEE87253A839100D95E4B /* LearnList.swift in Sources */,
 				24EEEEB0253AD84A00D95E4B /* LearnAnimate.swift in Sources */,
 				2450115D25396C2F00792DF1 /* Learn.swift in Sources */,
