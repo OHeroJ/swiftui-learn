@@ -3,11 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2439B2C5254120D100B14C78 /* LearnGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2439B2C4254120D100B14C78 /* LearnGeometryReader.swift */; };
+		2439B2E62546A5BC00B14C78 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 2439B2E52546A5BC00B14C78 /* SwiftUIX */; };
+		2439B2ED2546A9ED00B14C78 /* ScreenshotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2439B2EC2546A9ED00B14C78 /* ScreenshotView.swift */; };
+		2439B2FE2546ABFB00B14C78 /* ArticleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2439B2FD2546ABFB00B14C78 /* ArticleDetail.swift */; };
+		2439B3042546AE9400B14C78 /* Parma in Frameworks */ = {isa = PBXBuildFile; productRef = 2439B3032546AE9400B14C78 /* Parma */; };
 		245011582539352600792DF1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245011572539352600792DF1 /* Home.swift */; };
 		2450115D25396C2F00792DF1 /* Learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450115C25396C2F00792DF1 /* Learn.swift */; };
 		2450116225396C3A00792DF1 /* Mine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450116125396C3A00792DF1 /* Mine.swift */; };
@@ -46,6 +50,8 @@
 
 /* Begin PBXFileReference section */
 		2439B2C4254120D100B14C78 /* LearnGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnGeometryReader.swift; sourceTree = "<group>"; };
+		2439B2EC2546A9ED00B14C78 /* ScreenshotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotView.swift; sourceTree = "<group>"; };
+		2439B2FD2546ABFB00B14C78 /* ArticleDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetail.swift; sourceTree = "<group>"; };
 		245011572539352600792DF1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		2450115C25396C2F00792DF1 /* Learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn.swift; sourceTree = "<group>"; };
 		2450116125396C3A00792DF1 /* Mine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mine.swift; sourceTree = "<group>"; };
@@ -76,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2439B3042546AE9400B14C78 /* Parma in Frameworks */,
+				2439B2E62546A5BC00B14C78 /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +104,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2439B2EA2546A9B700B14C78 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				2439B2EB2546A9C100B14C78 /* Screenshot */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		2439B2EB2546A9C100B14C78 /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				2439B2EC2546A9ED00B14C78 /* ScreenshotView.swift */,
+			);
+			path = Screenshot;
+			sourceTree = "<group>";
+		};
 		2490F88524C83E200013EB7B = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +143,7 @@
 		2490F89024C83E200013EB7B /* switui_learn */ = {
 			isa = PBXGroup;
 			children = (
+				2439B2EA2546A9B700B14C78 /* Lib */,
 				24EEEE9B253A87EF00D95E4B /* Main */,
 				24EEEE9A253A87D300D95E4B /* Learn */,
 				2490F89124C83E200013EB7B /* switui_learnApp.swift */,
@@ -165,6 +190,7 @@
 				24EEEE86253A839100D95E4B /* LearnList.swift */,
 				24EEEE90253A85D900D95E4B /* LearnObservableObject.swift */,
 				2439B2C4254120D100B14C78 /* LearnGeometryReader.swift */,
+				2439B2FD2546ABFB00B14C78 /* ArticleDetail.swift */,
 			);
 			path = Learn;
 			sourceTree = "<group>";
@@ -198,6 +224,10 @@
 			dependencies = (
 			);
 			name = switui_learn;
+			packageProductDependencies = (
+				2439B2E52546A5BC00B14C78 /* SwiftUIX */,
+				2439B3032546AE9400B14C78 /* Parma */,
+			);
 			productName = switui_learn;
 			productReference = 2490F88E24C83E200013EB7B /* switui_learn.app */;
 			productType = "com.apple.product-type.application";
@@ -269,6 +299,10 @@
 				Base,
 			);
 			mainGroup = 2490F88524C83E200013EB7B;
+			packageReferences = (
+				2439B2E42546A5BC00B14C78 /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+				2439B3022546AE9400B14C78 /* XCRemoteSwiftPackageReference "Parma" */,
+			);
 			productRefGroup = 2490F88F24C83E200013EB7B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -315,6 +349,8 @@
 				2439B2C5254120D100B14C78 /* LearnGeometryReader.swift in Sources */,
 				24EEEE87253A839100D95E4B /* LearnList.swift in Sources */,
 				24EEEEB0253AD84A00D95E4B /* LearnAnimate.swift in Sources */,
+				2439B2ED2546A9ED00B14C78 /* ScreenshotView.swift in Sources */,
+				2439B2FE2546ABFB00B14C78 /* ArticleDetail.swift in Sources */,
 				2450115D25396C2F00792DF1 /* Learn.swift in Sources */,
 				2490F89424C83E200013EB7B /* MainApp.swift in Sources */,
 				24EEEE96253A878C00D95E4B /* LearnEnvironmentObject.swift in Sources */,
@@ -644,6 +680,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2439B2E42546A5BC00B14C78 /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		2439B3022546AE9400B14C78 /* XCRemoteSwiftPackageReference "Parma" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dasautoooo/Parma";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2439B2E52546A5BC00B14C78 /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2439B2E42546A5BC00B14C78 /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+		2439B3032546AE9400B14C78 /* Parma */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2439B3022546AE9400B14C78 /* XCRemoteSwiftPackageReference "Parma" */;
+			productName = Parma;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2490F88624C83E200013EB7B /* Project object */;
 }

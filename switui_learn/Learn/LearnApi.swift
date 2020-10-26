@@ -56,7 +56,7 @@ struct LearnApi: View {
         VStack{
             List {
                 ForEach(viewModel.topics) { topic in
-                    return Text(topic.title)
+                    NavigationLink(topic.title, destination: ArticleDetail(content: topic.content))
                 }
             }
         }

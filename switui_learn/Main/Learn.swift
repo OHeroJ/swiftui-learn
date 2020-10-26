@@ -23,7 +23,7 @@ struct Learn: View {
                     .padding(10)
                 NavigationLink("Network 学习", destination: LearnApi())
                     .padding(10)
-                NavigationLink("GeometryReader 学习", destination: LearnApi())
+                NavigationLink("GeometryReader 学习", destination: LearnGeometryReader())
                     .padding(10)
             }.navigationTitle("Learn")
         })
