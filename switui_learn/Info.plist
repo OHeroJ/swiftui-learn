@@ -46,7 +46,6 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-    ss
     <!-- 媒体资料库 -->
     <key>NSAppleMusicUsageDescription</key>
     <string>App需要您的同意,才能访问媒体资料库</string>
